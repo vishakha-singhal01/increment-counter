@@ -1,0 +1,40 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+    /* font-family: "Lexend Deca Light"; */
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: rgb(14, 13, 13);
+}
+
+.counter{ 
+    font-size: 3.2rem; 
+    color: #f8f6f6; 
+    margin: 2rem 0 1rem 0;
+}
+span{
+    font-size: 2.7rem;
+    color: #f8f6f6; 
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+}
+
+.counter-container{
+    text-align: center;
+}
+
+.id{
+    width: 20px;
+    height:20px;
+    color:#f8f6f6;
+}
